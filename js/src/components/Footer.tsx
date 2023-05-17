@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 
 const CustomFooter = styled.footer`
   background-color: #1aaedb;
+  position: absolute;
+  bottom: 0;
+  width: calc(100%);
 `
 const CustomConteiner = styled.div`
   min-height: 50px;
